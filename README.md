@@ -14,6 +14,7 @@ I wanted a way to visualise on what and how much we're spending during the month
 - Have multiple accounts
 - See previous month's details
 - Input budget details and see what you're overspending on
+- Authentication
 
 ## Tech stack
 - React Native
@@ -32,7 +33,7 @@ I wanted a way to visualise on what and how much we're spending during the month
       "monthName": "August",
       "amountSaved": 1000, // computed from 'save' transactions
       "amountSpent": 650,  // computed from 'spend' transactions
-      
+
       "transactions": {
         "ahsdgf87678": {
           "type": "spend",
