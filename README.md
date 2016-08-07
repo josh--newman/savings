@@ -15,6 +15,7 @@ I wanted a way to visualise on what and how much we're spending during the month
 - See previous month's details
 - Input budget details and see what you're overspending on
 - Authentication
+- Savings projection (how you will have given current trend)
 
 ## Tech stack
 - React Native
@@ -28,6 +29,7 @@ I wanted a way to visualise on what and how much we're spending during the month
   "account": {
     // Income for the month
     "budget": 6600,
+    "totalSaved": 3500,
 
     "currentMonth": {
       "monthName": "August",
@@ -38,18 +40,21 @@ I wanted a way to visualise on what and how much we're spending during the month
         "ahsdgf87678": {
           "type": "spend",
           "reason": "Groceries",
-          "amount": 150.95
+          "amount": 150.95,
+          "date": "1/8/2016"
         },
         "987tihfgkjh": {
           "type": "spend",
           "reason": "Take out",
-          "amount": 32.56
+          "amount": 32.56,
+          "date": "2/8/2016"
         },
         "8734ytkjwg8": {
           "type": "save",
           "reason": "Take out",
-          "amount": 32.56
-        },
+          "amount": 32.56,
+          "date": "3/8/2016"
+        }
       }
     }
   }
