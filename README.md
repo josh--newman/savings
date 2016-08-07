@@ -22,14 +22,17 @@ I wanted a way to visualise on what and how much we're spending during the month
 
 -----------------------
 ### App state
-```json
+```js
 {
   "account": {
+    // Income for the month
     "budget": 6600,
+
     "currentMonth": {
       "monthName": "August",
-      "amountSaved": 1000,
-      "amountSpent": 650,
+      "amountSaved": 1000, // computed from 'save' transactions
+      "amountSpent": 650,  // computed from 'spend' transactions
+      
       "transactions": {
         "ahsdgf87678": {
           "type": "spend",
